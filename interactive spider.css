@@ -1,0 +1,16 @@
+body {
+    overflow: hidden;
+    margin: 0;  
+    cursor: pointer;
+    position: relative;
+}
+button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    z-index: 2;
+    padding: 1rem;
+    border-radius: 15px;
+}
